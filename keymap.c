@@ -9,9 +9,16 @@
 #define X_AA KC_8
 #define X_II KC_9
 #define X_EE KC_0
+
+#define X_MINS KC_SLSH
+#define X_CARK KC_EQL
+#define X_BSLS RALT(KC_Q)
+#define X_LBRC RALT(KC_F)
+
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[0] = LAYOUT_60_tsangan_hhkb(
-		KC_ESC,	    X_PLUS,     X_ES,       X_SS,       X_CC,       X_RR,       X_ZZ,       X_YY,       X_AA,       X_II,       X_EE,       KC_X,     KC_X,  KC_X,       KC_X,
+		KC_ESC,	    X_PLUS,     X_ES,       X_SS,       X_CC,       X_RR,       X_ZZ,       X_YY,       X_AA,       X_II,       X_EE,       X_MINS,     X_CARK,     X_BSLS,     KC_X,
 		KC_TAB,		KC_Q,		KC_W,		KC_E,		KC_R,		KC_T,		KC_Y,		KC_U,		KC_I,		KC_O,		KC_P,		KC_LBRC,	KC_RBRC,	KC_BSPC,
 		KC_CAPS,	KC_A,		KC_S,		KC_D,		KC_F,		KC_G,		KC_H,		KC_J,		KC_K,		KC_L,		KC_SCLN,	KC_QUOT, 				KC_ENT,
 		KC_LSFT,	KC_Z,		KC_X,		KC_C,		KC_V,		KC_B,		KC_N,		KC_M,		KC_COMM,	KC_DOT,		KC_SLSH,				KC_RSFT,	MO(1),
