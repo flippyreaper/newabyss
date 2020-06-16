@@ -1,15 +1,14 @@
 #include QMK_KEYBOARD_H
 #include config.h
 
-#----------------------------------------------------------------------------------------------------
+/*----------------------------------------------------------------------------------------------------
 #TheAbsoluteFuckeryKeymap By FlippyReaper
 #Also known as US layout mashed with Czech special characters running under Czech keyboard language
 #aka The True Czech Programmer layout
 #There isn't a real Left Shift! And that's really bad thing when you need it for gaming for example
 #I guess you would understand Dvorak/Colemak faster than trying to wrap you head around this mess
-#It's also QWERTZ!
-#----------------------------------------------------------------------------------------------------
-
+#It's also QWERTZ! I warned you it's a real shitfest
+----------------------------------------------------------------------------------------------------*/
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	//Default 
