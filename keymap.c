@@ -180,7 +180,7 @@ KC_CAPS, RGB_TOG, RGB_MOD, RGB_HUI, RGB_HUD, RGB_SAI, RGB_SAD, RGB_VAI, RGB_VAD,
 		CZ_FN,      KC_Q,       KC_W,       KC_E,       KC_R,       KC_T,       KC_Y,       KC_U,       KC_I,       KC_O,       KC_P,       CZ_LBRC,     CZ_RBRC,     KC_BSPC,
 		CZ_NUMB     KC_A,       KC_S,       KC_D,       KC_F,       KC_G,       KC_H,       KC_J,       KC_K,       KC_L,       CZ_SCLN,    CZ_APOS,                  KC_ENT,
 		CZ_LSFT,    KC_Z,       KC_X,       KC_C,       KC_V,       KC_B,       KC_N,       KC_M,       KC_COMM,    KC_DOT,     CZ_SLSH,                 KC_RSFT,     CZ_SYS,
-		KC_LCTL, 	KC_LGUI,	KC_LALT,										KC_SPC,												   	    KC_RALT,     KC_RGUI,     KC_RCTL),
+		 KC_X,KC_X,KC_X,KC_X,KC_X,KC_X,KC_X),
 	
 	
 	
