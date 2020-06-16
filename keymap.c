@@ -65,8 +65,8 @@
 
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-	//Default Layer
-	//Layer 0
+	//Default 
+	[0] = LAYOUT_60_tsangan_hhkb(
 		KC_ESC,	    CZ_PLUS,    CZ_ES,      CZ_SS,      CZ_CC,      CZ_RR,      CZ_ZZ,      CZ_YY,      CZ_AA,      CZ_II,      CZ_EE,      CZ_MINS,     CZ_CARK,     CZ_BSLS,     KC_X,
 		CZ_FN,      KC_Q,       KC_W,       KC_E,       KC_R,       KC_T,       KC_Y,       KC_U,       KC_I,       KC_O,       KC_P,       CZ_LBRC,     CZ_RBRC,     KC_BSPC,
 		CZ_NUMB,     KC_A,       KC_S,       KC_D,       KC_F,       KC_G,       KC_H,       KC_J,       KC_K,       KC_L,       CZ_SCLN,    CZ_APOS,                  KC_ENT,
