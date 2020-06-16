@@ -64,7 +64,7 @@
 
 
 
-const uint16_t PROGMEM keymaps[][MATRICZ_ROWS][MATRICZ_COLS] = {
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	//Default Layer
 	//Layer 0
 	
